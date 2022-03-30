@@ -6,7 +6,7 @@ import "./NewsList.css"
 
 export default function NewsList() {
   const [url, setUrl] =useState("http://localhost:3000/news")
-  const {data: news, isPending} = useFetch(url)
+  const {data: news, isPending, error} = useFetch(url, {type:"GET"})
 
 
    
@@ -14,6 +14,7 @@ export default function NewsList() {
     <div className="news-list">
         <h2>ALL THE LATEST NEWS</h2>
         {isPending && <div> Loading News... </div>}
+        {error && <div>{error}</div>}
         <ul>
             {news && news.map(news =>(
              <li key={news.id}> 

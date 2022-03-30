@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.App button{
+  background-color: #ff216e;
+  padding: 12px 64px;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.6em;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 10%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
