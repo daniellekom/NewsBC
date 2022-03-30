@@ -1,5 +1,6 @@
 import { useState} from "react"
 import {useFetch} from "../hooks/useFetch"
+import image from "../components/newsimg1.png"
 
 //styles
 import "./NewsList.css"
@@ -15,16 +16,22 @@ export default function NewsList() {
         <h2>ALL THE LATEST NEWS</h2>
         {isPending && <div> Loading News... </div>}
         {error && <div>{error}</div>}
-        <ul>
-            {news && news.map(news =>(
-             <li key={news.id}> 
-             <h3>{news.title}</h3>
-             <h3>{news.article}</h3>
-             <h3>{news.by}</h3>
-             
-             </li>   
-            ) )}
-        </ul>
+        <container className="news-list-container">
+            <ul>
+                {news && news.map(news =>(    
+                <li key={news.id}> 
+                <img src={image} alt="img" className="article-image"/>
+                <h3>{news.title}</h3>
+                <h3>{news.article}</h3>
+                <h3>{news.by}</h3>
+                
+                </li>   
+                
+                ) )}
+            </ul>
+        </container>
+
+        
     </div>
   )
 }
