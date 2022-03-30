@@ -1,0 +1,41 @@
+{
+    "news":[
+{
+    "title": "Tech News ",
+    "article": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam culpa rem ducimus, sapiente iste quis eos voluptate, qui porro exercitationem recusandae soluta numquam ipsa non nobis? Maiores, inventore vero.",
+    "id" :"1",
+    "by": "Boca Code"
+},
+{
+    "title": "Tech News ",
+    "article": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam culpa rem ducimus, sapiente iste quis eos voluptate, qui porro exercitationem recusandae soluta numquam ipsa non nobis? Maiores, inventore vero.",
+    "id" :"2",
+    "by": "Boca Code"
+},
+{
+    "title": "Tech News ",
+    "article": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam culpa rem ducimus, sapiente iste quis eos voluptate, qui porro exercitationem recusandae soluta numquam ipsa non nobis? Maiores, inventore vero.",
+    "id" :"3",
+    "by": "Boca Code"
+},
+{
+    "title": "Tech News ",
+    "article": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam culpa rem ducimus, sapiente iste quis eos voluptate, qui porro exercitationem recusandae soluta numquam ipsa non nobis? Maiores, inventore vero.",
+    "id" :"4",
+    "by": "Boca Code"
+},
+{
+    "title": "Tech News ",
+    "article": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam culpa rem ducimus, sapiente iste quis eos voluptate, qui porro exercitationem recusandae soluta numquam ipsa non nobis? Maiores, inventore vero.",
+    "id" :"5",
+    "by": "Boca Code"
+},
+{
+    "title": "Tech News ",
+    "article": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam culpa rem ducimus, sapiente iste quis eos voluptate, qui porro exercitationem recusandae soluta numquam ipsa non nobis? Maiores, inventore vero.",
+    "id" :"6",
+    "by": "Boca Code"
+}
+   ]
+ 
+}
