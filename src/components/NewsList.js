@@ -1,6 +1,6 @@
 import { useState} from "react"
 import {useFetch} from "../hooks/useFetch"
-import image from "../components/newsimg1.png"
+import image from "../img/newsimg1.png"
 
 //styles
 import "./NewsList.css"

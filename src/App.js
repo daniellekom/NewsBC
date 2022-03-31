@@ -5,7 +5,7 @@ import NewsList from './components/NewsList';
 
 
 function App() {
-const[cards,setCards] =useState([])
+
 
 
   const [hideNews, setHideNews] =useState(false)
